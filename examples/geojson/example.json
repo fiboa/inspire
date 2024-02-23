@@ -1,6 +1,6 @@
 {
   "type": "Feature",
-  "id": "example",
+  "id": "6467974",
   "bbox": [
     172.91173669923782,
     1.3438851951615003,
@@ -35,9 +35,6 @@
     ]
   },
   "properties": {
-    "datetime": "2020-01-01T00:00:00Z",
-    "expires": "2021-01-01T00:00:00Z",
-    "template:field1": 1,
-    "template:field2": "abc"
+    "inspire:id": "https://geodaten.nrw.de/id/inspire-lc-dgl/landcoverunit/6467974"
   }
 }

@@ -1,15 +1,15 @@
-# Template Extension Specification
+# INSPIRE Extension Specification
 
-- **Title:** Template
-- **Identifier:** <https://fiboa.github.io/extension-template/v0.1.0/schema.yaml>
-- **Property Name Prefix:** template
-- **Extension Maturity Classification:** Proposal/Candidate/Stable
-- **Owner**: @your-gh-handles @person2
+- **Title:** INSPIRE
+- **Identifier:** <https://fiboa.github.io/inspire/v0.1.0/schema.yaml>
+- **Property Name Prefix:** inspire
+- **Extension Maturity Classification:** Proposal
+- **Owner**: @m-mohr
 
-This document explains the Template Extension to the
+This document explains the INSPIRE Extension to the
 [Field Boundaries for Agriculture (fiboa) Specification](https://github.com/fiboa/specification).
 
-This is the place to add a short introduction.
+It adds support for a property that reflects the INSPIRE ID.
 
 - Examples:
   - [GeoJSON](examples/geojson/)
@@ -24,10 +24,9 @@ The fields in the table below can be used in these parts of fiboa documents:
 - [ ] Collection
 - [x] Feature Properties
 
-| Property Name   | Type   | Description |
-| --------------- | ------ | ----------- |
-| template:field1 | string | **REQUIRED**. Describe the required field... |
-| template:field2 | int32  | Describe the field... |
+| Property Name | Type   | Description |
+| ------------- | ------ | ----------- |
+| inspire:id    | string | **REQUIRED**. INSPIRE-compliant ID, a absolute and fully resolvable URI. Example: `https://geodaten.nrw.de/id/inspire-lc-dgl/landcoverunit/6467974` |
 
 ## Contributing
 
