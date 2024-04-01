@@ -1,0 +1,4 @@
+properties:
+  inspire:id:
+    type: string
+    format: uri
