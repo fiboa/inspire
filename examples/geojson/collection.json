@@ -1,7 +1,7 @@
 {
   "fiboa_version": "0.0.2",
   "fiboa_extensions": [
-    "https://fiboa.github.io/inspire/v0.1.0/schema.yaml"
+    "https://fiboa.github.io/inspire-extension/v0.1.0/schema.yaml"
   ],
   "stac_version": "1.0.0",
   "type": "Collection",

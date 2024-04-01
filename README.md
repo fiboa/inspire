@@ -1,7 +1,7 @@
 # INSPIRE Extension Specification
 
 - **Title:** INSPIRE
-- **Identifier:** <https://fiboa.github.io/inspire/v0.1.0/schema.yaml>
+- **Identifier:** <https://fiboa.github.io/inspire-extension/v0.1.0/schema.yaml>
 - **Property Name Prefix:** inspire
 - **Extension Maturity Classification:** Proposal
 - **Owner**: @m-mohr

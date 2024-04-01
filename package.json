@@ -6,8 +6,8 @@
     "test": "npm run check-docs && npm run check-geojson-examples && npm run check-geoparquet-examples",
     "check-geojson-examples": "fiboa-geojson-validator validate examples/geojson -c examples/geojson/collection.json",
     "init": "pip install fiboa-cli",
-    "check-geoparquet-examples": "fiboa validate examples/geoparquet -e https://fiboa.github.io/inspire/v0.1.0/schema.yaml,schema/schema.yaml",
-    "create-geoparquet-example": "fiboa create examples/geojson -o examples/geoparquet/example.parquet -c examples/geojson/collection.json -e https://fiboa.github.io/inspire/v0.1.0/schema.yaml,schema/schema.yaml",
+    "check-geoparquet-examples": "fiboa validate examples/geoparquet -e https://fiboa.github.io/inspire-extension/v0.1.0/schema.yaml,schema/schema.yaml",
+    "create-geoparquet-example": "fiboa create examples/geojson -o examples/geoparquet/example.parquet -c examples/geojson/collection.json -e https://fiboa.github.io/inspire-extensions/v0.1.0/schema.yaml,schema/schema.yaml",
     "check-docs": "remark . -f -r .github/.remarkrc"
   },
   "dependencies": {
