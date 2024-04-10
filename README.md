@@ -26,7 +26,7 @@ The fields in the table below can be used in these parts of fiboa documents:
 
 | Property Name | Type   | Description |
 | ------------- | ------ | ----------- |
-| inspire:id    | string | **REQUIRED**. INSPIRE-compliant ID, a absolute and fully resolvable URI. Example: `https://geodaten.nrw.de/id/inspire-lc-dgl/landcoverunit/6467974` |
+| inspire:id    | string | **REQUIRED**. INSPIRE-compliant ID, an absolute and fully resolvable URI. Example: `https://geodaten.nrw.de/id/inspire-lc-dgl/landcoverunit/6467974` |
 
 ## Contributing
 
