@@ -8,7 +8,7 @@ fiboa-cli = ">=0.3"
 pymarkdownlnt = ">=0.9"
 
 [scripts]
-test-docs = "pymarkdown -d md024 -d md013 scan ."
+test-docs = "pymarkdown -d md024,md013 scan ."
 test-schema = "fiboa validate-schema schema/schema.yaml"
 test-geojson = "fiboa validate examples/geojson -c examples/geojson/collection.json -e https://fiboa.github.io/inspire-extension/v0.2.0/schema.yaml,schema/schema.yaml"
 test-geoparquet = "fiboa validate examples/geoparquet -e https://fiboa.github.io/inspire-extension/v0.2.0/schema.yaml,schema/schema.yaml"
