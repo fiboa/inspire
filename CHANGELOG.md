@@ -35,6 +35,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - First release
 
-[Unreleased]: <https://github.com/radiantearth/stac-spec/compare/v0.2.0...main>
-[v0.2.0]: <https://github.com/radiantearth/stac-spec/compare/v0.1.0...0.2.0>
-[v0.1.0]: <https://github.com/radiantearth/stac-spec/tree/v0.1.0>
+[Unreleased]: <https://github.com/fiboa/inspire-extension/compare/v0.2.0...main>
+[v0.2.0]: <https://github.com/fiboa/inspire-extension/compare/v0.1.0...0.2.0>
+[v0.1.0]: <https://github.com/fiboa/inspire-extension/tree/v0.1.0>
